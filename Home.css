@@ -1,0 +1,79 @@
+/* Styles for the question cards */
+.question-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .question-card p {
+    margin: 5px 0;
+  }
+  
+  /* Styles for the filter bar */
+  .filter-bar {
+    margin-bottom: 20px;
+  }
+  
+  .filter-bar input {
+    margin: 0 10px 10px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the add question form */
+  .add-question-form input,
+  .add-question-form button {
+    margin: 5px 0;
+    padding: 5px;
+  }
+  
+  .add-question-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-question-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the expanded question card */
+  .expanded-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .expanded-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  .expanded-card p {
+    margin: 5px 0;
+  }
+  
+  /* Optional: Styles for reordering the list (using React Draggable) */
+  .draggable-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .draggable-list .question-card {
+    cursor: move;
+  }
+  
